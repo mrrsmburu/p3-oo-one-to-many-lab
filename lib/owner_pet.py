@@ -8,7 +8,7 @@ class Owner:
 
     def add_pet(self, pet):
         if not isinstance(pet, Pet):
-            raise Exception("Only instances of Pet class can be added as pets.")
+            raise Exception
         pet.set_owner(self)
         self._pets.append(pet)
 
